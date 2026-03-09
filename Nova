@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Nova Shop</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Arial, Helvetica, sans-serif;
+background:#0b0b0b;
+color:white;
+}
+
+header{
+background:#111;
+padding:20px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo{
+font-size:24px;
+font-weight:bold;
+}
+
+nav a{
+color:white;
+margin-left:20px;
+text-decoration:none;
+}
+
+.hero{
+text-align:center;
+padding:80px 20px;
+}
+
+.products{
+display:flex;
+justify-content:center;
+gap:30px;
+padding:40px;
+}
+
+.product{
+background:#161616;
+padding:25px;
+border-radius:12px;
+width:280px;
+text-align:center;
+}
+
+.product h2{
+margin-top:0;
+}
+
+.variant{
+background:#222;
+margin:10px 0;
+padding:10px;
+border-radius:6px;
+}
+
+button{
+background:#7c4dff;
+border:none;
+color:white;
+padding:12px 20px;
+border-radius:6px;
+cursor:pointer;
+}
+
+button:hover{
+background:#6a3cff;
+}
+
+.reviews{
+padding:50px;
+text-align:center;
+}
+
+.review{
+background:#161616;
+margin:15px auto;
+padding:15px;
+border-radius:8px;
+max-width:400px;
+}
+
+footer{
+background:#111;
+text-align:center;
+padding:20px;
+margin-top:40px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="logo">Nova Shop</div>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">Products</a>
+<a href="#">Reviews</a>
+<a href="#">Terms</a>
+</nav>
+</header>
+
+<section class="hero">
+<h1>Welcome to Nova Shop</h1>
+<p>Best digital products & menus</p>
+</section>
+
+<section class="products">
+
+<div class="product">
+
+<h2>Vanity Menu</h2>
+
+<div class="variant">Week – €9.99</div>
+<div class="variant">Month – €19.99</div>
+<div class="variant">Lifetime – €29.99</div>
+
+<button>Buy Now</button>
+
+</div>
+
+</section>
+
+<section class="reviews">
+
+<h2>Customer Reviews</h2>
+
+<div class="review">
+⭐⭐⭐⭐⭐  
+"Great menu and fast delivery!"
+</div>
+
+<div class="review">
+⭐⭐⭐⭐⭐  
+"Best shop I used so far."
+</div>
+
+</section>
+
+<footer>
+© 2026 Nova Shop
+</footer>
+
+</body>
+</html>
